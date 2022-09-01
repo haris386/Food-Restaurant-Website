@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.title-heading {
+  font-weight: bold;
+  font-size: 70px;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: orangered;
+}
+
+.dropdown-toggle {
+  border: none;
+  padding-top: 8px;
+}
+
+.dropdown-toggle:hover {
+  color: orangered;
+}
+
+.dropdown-item:hover {
+  color: orangered;
+}
+
+.carticon {
+  border-radius: 10px;
+  background-color: #febf34;
+  width: 40px;
+  height: 43px;
+}
+
+.carticon > a {
+  padding-bottom: 0px;
+  padding-top: 5px;
+}
+
+.carticon:hover {
+  background-color: #fb7222;
+}
+
+.basketicon{
+  margin-left: 2px;
+}
+
+.hero-social-icons {
+  margin-left: 1%;
+  word-spacing: 10px;
+  font-size: 20px;
+}
+
+.hero-social-icons > i:hover{
+  color: #fb7222;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.menubtn {
+  background-color: black;
+  color: white;
+  padding: 3%;
+  border-radius: 50px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.menubtn:hover {
+  color: #febd2e;
+}
+
+.menubtn > i {
+  color: #febd2e;
+  font-size: 30px;
+}
+
+.card-title {
+  width: 50%;
+  margin: auto;
+  padding: 5%;
+  border-radius: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-title:hover {
+  background-color: #febd2e;
+  cursor: pointer;
+}
+
+.card {
+  border: none;
+  box-shadow: 0px 6px 25px 3px rgb(0 0 0 / 10%);
+}
+
+.storybtn {
+  background-color: black;
+  color: white;
+  padding: 2%;
+  border-radius: 50px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.storybtn:hover {
+  color: #febd2e;
+}
+
+.storybtn > i {
+  color: #febd2e;
+  font-size: 25px;
+}
+
+.add-to-cart-btn {
+  text-decoration: none;
+  background-color: #d9d4d4;
+  padding: 5%;
+  border-radius: 50px;
+  color: #444141;
+  font-weight: bold;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #febd2e;
+  color: black;
+}
+
+.prices {
+  color: orangered;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.load-more-btn {
+  background-color: black;
+  color: white;
+  padding: 5%;
+  border-radius: 50px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.load-more-btn:hover {
+  color: #febd2e;
+}
+
+.load-more-btn > i {
+  color: #febd2e;
+  font-size: 25px;
+}
+
+.contactUs-btn {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  padding: 5%;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 25px;
+}
+
+.contactUs-btn:hover {
+  color: #febd2e;
+}
+
+.footer-input {
+  background-color: #cdcccc;
+  border: none;
+  padding: 11px;
+  border-radius: 10px;
+}
+
+.footer-input:focus-visible {
+  border: none;
+}
+
+.footericon {
+  font-size: 48px;
+  z-index: 1;
+  position: relative;
+  right: 13%;
+  top: 7%;
+}
+
+.footericon:hover {
+  color: #febd2e;
+  cursor: pointer;
+}
+
+.backtotopbtn {
+  font-size: 40px;
+  color: orangered;
+  position: relative;
+  left: 95%;
+  top: 355px;
+}
+
+.backtotopbtn:hover {
+  color: #febd2e;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-links:hover {
+  color: #febd2e;
+}
+
+/* RESPONSIVE SETTINGS */
+@media only screen and (max-width: 600px) {
+  .title-heading {
+    font-size: 60px;
+  }
+
+  .respon-media {
+    text-align: center;
+  }
+
+  .cmb {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .contactUs-btn{
+    font-size: 20px;
+    margin-bottom: 2%;
+  }
+
+  hr{
+    margin: 10% auto;
+  }
+  
+  .backtotopbtn{
+    font-size: 40px;
+    color: orangered;
+    position: relative;
+    left: 85%;
+    top: 635px;
+  }
+
+  .dropdown-toggle{
+    padding-left: 0px;
+  }
+
+  .basketicon{
+    margin-left: 10px !important;
+  }
+}
